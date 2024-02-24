@@ -19,9 +19,9 @@ lazy val root = (project in file("."))
       "org.scalameta"   %% "munit"               % MunitVersion           % Test,
       "org.typelevel"   %% "munit-cats-effect-3" % MunitCatsEffectVersion % Test,
       "ch.qos.logback"  %%  "logback-classic"     % LogbackVersion,
-      "org.http4s"      %% "http4s-core"         % http4sVersion,
-      "org.http4s"      %% "http4s-client"       % http4sVersion,
-      "org.http4s"      %% "http4s-server"       % http4sVersion,
+
+
+
       "org.tpolecat" %% "doobie-h2"        % "1.0.0-RC4",          // H2 driver 1.4.200 + type mappings.
       "org.tpolecat" %% "doobie-hikari"    % "1.0.0-RC4",          // HikariCP transactor.
       "org.tpolecat" %% "doobie-postgres"  % "1.0.0-RC4",          // Postgres driver 42.6.0 + type mappings.
